@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/jquery-1.12.2.min.js"></script>
+	<script type="text/javascript" src="js/fdb-all.min.js"></script>
+	<title>查詢</title>
+	<style>
+body {
+    background-color: #00ffb1;
+}
+
+</style>
+
+</head>
+<body>
+<font color=#000000 ; size="7">支出查詢</font><p><b>
+<font color=#000000 ; size="4">指定期間</font><p>
+
+<input type="date" name="" id="fromTime"> - <input type="date" name="" id="toTime"><br><p>
+<button class="btn btn-primary little" id="lookup">查詢</button>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>日期</th>
+      <th>項目</th>
+      <th>類別</th>
+      <th>金額</th>
+    </tr>
+  </thead>
+  <tbody id="accountingTable">
+   
+  </tbody>
+</table>
+<input type="button" style="color:#ffffff;font-size:22px;width:160px;height:40px;background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKrD56n-37qYCcPtglp3_zJx0jWnpLBA-dOWC5VqNXIOQewA0_');"onclick="window.location.href='index.html'" value="返回">
+<script type="text/javascript" src="js/lookup.js"></script>
+</body>
+</html>
+
+</body>
+</html>

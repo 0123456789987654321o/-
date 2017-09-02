@@ -2,8 +2,9 @@
 <html>
 <head>
 <meta name=”viewport” content=”width=device-width, initial-scale=1.0″>
-<script type="text/javascript" src="js/jquery-1.12.2.min.js"></script>
 
+<script type="text/javascript" src="js/jquery-1.12.2.min.js"></script>
+	<script type="text/javascript" src="js/fdb-all.min.js"></script>
 
 	<title>新增支出</title>
 	<style>
@@ -15,15 +16,15 @@ body {
 </head>
 <body>
 
-<input id= year type="text" style="width:327px;"  placeholder="年ψ(｀∇´)ψ"><p>
-<input id= month type="text" style="width:327px;"  placeholder="月ヽ(｀Д´)ﾉ"><p>
-<input id= day type="text" style="width:327px;"  placeholder="日\(￣< ￣)>"><p>
-<input id= money type="text" style="width:327px;"  placeholder="金額(σˋ▽ˊ)σ"><p>
-<input id= xo type="text" style="width:327px;"  placeholder="類別( ´_ゝ`)"><p>
-<input id= vu type="text" style="width:327px;"  placeholder="項目(　^ω^)  (吃,其他)"><p>
-<input type="button" style="color:#ffffff;font-size:22px;width:160px;height:40px;background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKrD56n-37qYCcPtglp3_zJx0jWnpLBA-dOWC5VqNXIOQewA0_');" value="取消">
+<font color=#ffffff ; size="5">日期:</font>
 
-<input type="button" style="font-size:22px;width:160px;color:#ffffff;height:40px;background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGIZdNU2laBh0JvSD5djuzHW-Oy_yQOWbSj3WDRyRq2wvM_XiSmA');" id= vup value="新增資料">
+<input type="date" class="form-control" id="date">
+<input id= money type="text" style="width:327px;"  placeholder="金額(σˋ▽ˊ)σ"><p>
+<input id= category type="text" style="width:327px;"  placeholder="類別( - Д - )"><p>
+<input id= item type="text" style="width:327px;"  placeholder="項目(　^ω^)  (吃,其他)"><p>
+<input type="button" style="color:#ffffff;font-size:22px;width:160px;height:40px;background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKrD56n-37qYCcPtglp3_zJx0jWnpLBA-dOWC5VqNXIOQewA0_');"onclick="window.location.href='index.html'" value="返回">
+<input type="button" style="font-size:22px;width:160px;color:#ffffff;height:40px;background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGIZdNU2laBh0JvSD5djuzHW-Oy_yQOWbSj3WDRyRq2wvM_XiSmA');" id= submit value="新增資料">
+
 <script type="text/javascript" src="js/index.js"></script>
 
 </body>
